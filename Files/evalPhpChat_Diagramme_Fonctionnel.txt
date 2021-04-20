@@ -1,0 +1,10 @@
+Liste fonctionnalité evalPhpChat :
+
+- Dialoguer de manière anonyme (seul le nickname, le content, l'id et la date du message sont enregistrés)
+- Striptag effectué : pas d'injection de code possible par les inputs
+- requête ajax toute les 3s pour donner un semblant d'affichage en temps réel
+
+Possible évolution sur la durée :
+
+Chat "anonyme" un peu comme telegram -> l'utilisateur pourra créer une "room" de chat anonyme sur laquelle il aura juste
+à envoyer le lien de cette room -> Au bout de 24h (voire moins) la discussion est supprimée de la base de données.
