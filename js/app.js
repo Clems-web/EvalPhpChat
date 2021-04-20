@@ -46,7 +46,7 @@ function postMessage(e){
   data.append('author', author.value);
   data.append('content', content.value);
 
-  // 4. Create new request and send data (POST)
+  // Create new request and send data (POST)
   const requeteAjax = new XMLHttpRequest();
   requeteAjax.open('POST', 'manager.php?task=write');
   
