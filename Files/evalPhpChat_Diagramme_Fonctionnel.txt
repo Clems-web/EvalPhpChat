@@ -7,4 +7,4 @@ Liste fonctionnalité evalPhpChat :
 Possible évolution sur la durée :
 
 Chat "anonyme" un peu comme telegram -> l'utilisateur pourra créer une "room" de chat anonyme sur laquelle il aura juste
-à envoyer le lien de cette room -> Au bout de 24h (voire moins) la discussion est supprimée de la base de données.
+à envoyer le lien d'invitation de cette room -> Au bout de 24h (voire moins) la discussion est supprimée de la base de données.
